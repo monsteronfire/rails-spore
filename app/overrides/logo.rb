@@ -1,4 +1,4 @@
-Deface::Override.new(:virtual_path => "layouts/spree_application", 
+Deface::Override.new(:virtual_path => "spree/shared/_header", 
                      :name => "logo", 
                      :replace_contents => "#logo", 
-                     :text => "Store")
+                     :text => "<h1>Store</h1>")
