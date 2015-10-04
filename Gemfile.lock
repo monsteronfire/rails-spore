@@ -11,12 +11,6 @@ GIT
       spree_core (~> 3.0.0)
 
 GIT
-  remote: git://github.com/spree/spree_blue_theme.git
-  revision: 6674a0d1894240a2f39b6364e81a4b94e4158d6e
-  specs:
-    spree_blue_theme (0.2.0)
-
-GIT
   remote: git://github.com/spree/spree_gateway.git
   revision: 7301dc7c84c05b46427bf5003eda13ca64a48d7c
   branch: 3-0-stable
@@ -344,7 +338,6 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree (= 3.0.4)
   spree_auth_devise!
-  spree_blue_theme!
   spree_gateway!
   spring
   sqlite3
